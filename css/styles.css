@@ -324,7 +324,7 @@ img {
 	display: inline-block;
 	height: 48px;
 	border-radius: 4px;
-	padding: 12px 24px;
+	/* padding: 12px 24px; */
 
 	background-color: var(--background-section-color);
 	color: var(--button-text-color);
@@ -393,7 +393,7 @@ img {
 }
 
 .portfolio-title {
-	margin-top: 32px;
+	margin-top: 0px;
 	margin-bottom: 8px;
 
 	color: var(--primary-text-color);
