@@ -269,6 +269,8 @@ img {
 	line-height: 1.11;
 	text-align: center;
 }
+
+/* our team */
 .team-title {
 	margin-top: 0;
 	margin-bottom: 8px;
@@ -282,7 +284,12 @@ img {
 	margin-right: 24px;
 }
 
-/* our team */
+.position {
+	margin-top: 32px;
+	margin-bottom: 32px;
+	text-align: center;
+}
+
 .team {
 	background-color: var(--background-section-color);
 }
