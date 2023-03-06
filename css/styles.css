@@ -45,13 +45,7 @@ img {
 
 .container.main-nav {
 	box-sizing: border-box;
-	/* width: 1158px;
-	padding-left: 15px;
-	padding-right: 15px; */
-	/* padding-top: 120px;
-	padding-bottom: 120px; */
-	/* margin-left: auto;
-	margin-right: auto; */
+
 	margin-bottom: 0;
 	border-bottom: 1px solid var(--button-filter-color);
 	/* border-bottom: 1px solid var(--button-filter-color); */
@@ -59,23 +53,11 @@ img {
 	/* background-color: blue; */
 }
 
-/* .padding {
-	padding-top: 120px;
-	padding-bottom: 120px;
-} */
-
-/* .padding-work {
-	padding-bottom: 120px;
-} */
-
 /* logo */
 
 .logo {
-	/* display: inline-block; */
 	color: var(--primary-text-color);
 	text-decoration-line: none;
-	/* width: 115px;
-	height: 24px; */
 
 	font-family: 'Raleway', sans-serif;
 	font-weight: 800;
@@ -154,21 +136,32 @@ img {
 
 /* hero */
 
-.hero-section {
+.hero {
+	box-sizing: border-box;
 	padding-top: 188px;
 	padding-bottom: 188px;
 
-	background-color: var(--primary-text-color);
 	color: var(--background-color);
 	text-align: center;
+	background-color: var(--primary-text-color);
+}
+
+.hero-section {
+	/* box-sizing: border-box;
+	padding-top: 188px;
+	padding-bottom: 188px;
+
+	color: var(--background-color);
+	text-align: center; */
 }
 
 .hero-titel {
 	width: 496px;
 	margin-top: 0;
 	margin-bottom: 48px;
-	padding-right: auto;
-	padding-left: auto;
+	margin-left: auto;
+	margin-right: auto;
+
 	font-weight: 700;
 	font-size: 56px;
 	line-height: 1.07;
@@ -176,14 +169,11 @@ img {
 
 .hero-button {
 	display: block;
-
-	/* margin-right: auto;
-	margin-left: auto; */
-
 	min-width: 169px;
 
 	border-radius: 4px;
 	padding: 16px 32px;
+	margin: 0 auto;
 
 	background-color: var(--button-text-color);
 	color: var(--background-color);
